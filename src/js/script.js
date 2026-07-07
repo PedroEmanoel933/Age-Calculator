@@ -15,7 +15,7 @@ form.addEventListener('submit', (event) => {
 
     const data = new Date()
     const dia_atual = data.getDate()
-    const mes_atual = data.getMonth()
+    const mes_atual = data.getMonth() + 1
     const ano_atual = data.getFullYear()
     
     let info_dia = dia_atual - dia
